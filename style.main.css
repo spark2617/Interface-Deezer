@@ -1,0 +1,657 @@
+main{
+    position: fixed;
+
+    top: 80px;
+    margin-left: 271px;
+    width: 79.11%;
+    height: 500px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction:column ;
+
+    overflow: auto;
+    
+}
+
+.dm-title{
+ 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    width: 902px;    
+    padding: 24px;
+}
+
+.row{
+    flex-direction: row;
+    gap: 12px;
+}
+
+.dm-title h2{
+    font-size: 1.3rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+    color: rgb(22, 22, 22);
+}
+
+.dm-title span{
+    font-size: 0.950rem;
+    font-weight: 400;
+    color: rgb(134, 134, 134);
+    
+}
+
+.dm-title span:hover{
+    text-decoration: none;
+}
+
+.dm-title button{
+    border: solid 1px rgb(134, 134, 134);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 7px 16px;
+
+    font-size: 0.90rem;
+    font-weight: 700;
+
+    border-radius: 8px;
+
+    background-color: white;
+
+    transition: 0.2s;
+
+}
+
+.dm-title button:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+/*===========================================*/
+
+
+.flow{
+    background: rgb(162,56,255);
+    background: linear-gradient(127deg, rgba(162,56,255,1) 12%, rgba(218,60,0,1) 100%); 
+
+    border-radius: 999px;
+
+    height: 110px;
+    width: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(244, 240, 245);
+    font-size: 1.9rem;
+    font-weight: 800;
+}
+
+.group-mix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+.card-mix-flow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.card-mix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.container-img{
+    display: none;
+    border-radius: 999px;
+
+    height: 110px;
+    width: 110px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(241, 241, 241);
+    transition: 0.2s;
+}
+
+.card-mix img{
+    
+    height: 80px;
+    width: 80px;
+}
+
+.play{
+    border-radius: 999px;
+    display: none !important;
+    height: 50px;
+    width: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.container-img:hover .play{
+    display: flex !important;
+}
+
+.container-img:hover img{
+    display: none !important;
+}
+
+.card-mix-flow:hover .play{
+    display: flex !important;
+}
+
+.card-mix-flow:hover strong{
+    display: none !important;
+}
+
+.play svg{
+    height: 35px;
+    width: 35px;
+}
+
+.treino:hover{
+    
+    background-color: orange;
+}
+
+.festa:hover{
+    
+    background-color: rgb(241, 130, 26);
+}
+
+.na-band:hover{
+    
+    background-color: #33dbbd;
+}
+
+.love:hover{
+    
+    background-color: #ff7fff;
+}
+
+.relax:hover{
+    
+    background-color: #c619c9;
+}
+
+.foco:hover{
+    
+    background-color: #6575ff;    
+}
+
+
+
+/*==============================================*/
+
+.alan{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/artist/79d384488d390e65a6c27a95c431627e/264x264-000000-80-0-0.jpg");
+}
+
+.im_dragons{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/artist/1ba025c23cae3dee14b51152990285fc/264x264-000000-80-0-0.jpg");
+}
+
+.snake{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/artist/02b4b508aa974d5f6e8348e2186dd49f/264x264-000000-80-0-0.jpg");
+}
+
+.alok{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/artist/dfa81ed66b2adca4c18005df7741f4e8/264x264-000000-80-0-0.jpg");
+}
+
+.img-stream{
+    
+    height: 188px;
+    width: 188px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 999px;
+
+    padding-bottom: 10px;
+    transition: 0.3s;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.img-stream:hover{
+    opacity: 0.8;
+}
+.img-stream:hover .play{
+    display: flex !important;
+}
+
+.group-stream{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.card-stream{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.card-stream strong{
+    font-size: 1rem;
+    font-weight: 400;
+    
+}
+
+.card-stream strong:hover{
+    text-decoration: underline;
+}
+
+.card-stream span{
+    font-size: 0.85rem;
+    font-weight: 400;
+
+    color: rgb(133, 133, 133);
+}
+
+
+/*===================================================*/
+
+
+.dm-chevrons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap:2px;
+}
+
+.dm-chevrons svg{
+    height: 40px;
+    width: 40px;
+    color: rgb(14, 14, 14);
+}
+
+.dm-chevrons div{
+    height: 60px;
+    width: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 999px;
+    transition: 0.2s;
+    
+}
+
+.dm-chevrons div:last-child:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+.dm-chevrons div:first-child{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.dm-t-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 902px;
+}
+
+.c-faixa{
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    background-color: rgb(226, 226, 226);
+
+    width: 410px;
+
+    border-radius: 6px;
+
+    transition: 0.2s;
+}
+
+.c-faixa:hover{
+    -webkit-box-shadow: 12px 15px 12px -18px rgba(181,179,181,1);
+    -moz-box-shadow: 12px 15px 12px -18px rgba(181,179,181,1);
+    box-shadow: 12px 15px 12px -18px rgba(181,179,181,1);
+}
+
+.c-faixa strong:hover{
+    text-decoration: underline;
+}
+
+.c-faixa img{
+    border-radius: 8px;
+
+    
+}
+
+.c-description{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+
+.c-description strong{
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.c-description span{
+    font-size: 0.85rem;
+    font-weight: 400;
+
+    color: rgb(133, 133, 133);
+}
+
+.group-faixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px;
+
+    margin-bottom: 40px;
+}
+
+.gf-faixa{
+    display: flex;
+    
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+
+/*=====================================================*/
+
+
+.daily-1{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/artist/1278c9d111945e9f0d8fcd133ac2b766-1278c9d111945e9f0d8fcd133ac2b766-64e49a12a349b0da1d31c2b07d5a04fd-57092c03f9a3099ff6c41338472078bc/264x264-000000-80-0-0.jpg");
+}
+
+.daily-2{
+    background-image:url("https://e-cdns-images.dzcdn.net/images/artist/1278c9d111945e9f0d8fcd133ac2b766-1278c9d111945e9f0d8fcd133ac2b766-bbb526b9666c7e31dee295bcabbbdd8e-d04045a0516525704c6f1c44ce46be14/264x264-000000-80-0-0.jpg");
+}
+.daily-3{
+    background-image:url("https://e-cdns-images.dzcdn.net/images/artist/1278c9d111945e9f0d8fcd133ac2b766-1278c9d111945e9f0d8fcd133ac2b766-3461977558f68c352862c00bee35603b-d04045a0516525704c6f1c44ce46be14/264x264-000000-80-0-0.jpg");
+}
+.daily-4{
+    background-image:url("https://e-cdns-images.dzcdn.net/images/artist/1278c9d111945e9f0d8fcd133ac2b766-1278c9d111945e9f0d8fcd133ac2b766-2d527fa03e106ed82a28f161694278d3-e7d9b5f817c30fa2c52f4105bde4ed51/264x264-000000-80-0-0.jpg");
+}
+
+.card-descubra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+
+    gap: 10px;
+
+    width: 188px;
+
+    
+}
+
+.card-descubra h2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    font-weight: 1000;
+    
+}
+
+.img-descubra:hover{
+    opacity: 0.8;
+}
+
+.img-descubra:hover .play{
+    display: flex !important;
+}
+
+.card-descubra span{
+    font-size: 0.90rem;
+    font-weight: 400;
+}
+
+.card-descubra span:hover{
+    text-decoration: underline;
+}
+
+.img-descubra{
+
+    height: 188px;
+    width: 188px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    padding: 30px 20px;
+
+    border-radius: 6px;
+
+    transition: 0.2s;
+
+    position: relative;
+}
+
+.group-descubra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+/*===============================================================*/
+
+
+
+.group-streaming{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 38px;
+
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.streaming-1{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/misc/5abf08690a3ba423b6ae29ffedae01d6/134x264-000000-80-0-0.jpg");
+}
+.streaming-2{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/misc/a48f6dd2a2283e64315050797164d72a/134x264-000000-80-0-0.jpg");
+}
+.streaming-3{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/misc/55dd289c7de652a42ca9d27aad53464b/134x264-000000-80-0-0.jpg");
+}
+.streaming-4{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/misc/39d4d8c4f6c398c0f969a430a103c1bf/134x264-000000-80-0-0.jpg");
+}
+
+.card-streaming{
+    width: 188px;
+    height: 93px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+
+    transition: 0.2s;
+
+}
+
+.card-streaming:hover{
+    opacity: 0.7;
+}
+
+.card-streaming h2{
+    font-weight: bolder;
+
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+}
+
+/*==========================================================*/
+
+
+.might-like-1{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/playlist/e6de49f40900c284258e8a043a9ac9c6/264x264-000000-80-0-0.jpg");
+}
+
+.might-like-2{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/playlist/a4f8afaa506d580c720ac0107ec30afe/264x264-000000-80-0-0.jpg");
+}
+
+.might-like-3{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/playlist/02902aa57e0ff266a788b443966f2da3/264x264-000000-80-0-0.jpg");
+}
+
+.might-like-4{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/playlist/3b1c8790411c1b1db7505dc972bef934/264x264-000000-80-0-0.jpg");
+}
+
+.img-square{
+    border-radius: 8px;
+}
+
+.column{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    flex-direction: column;
+
+    margin-top: 10px;
+}
+
+.blue{
+    background-color: #3448fc;
+}
+
+.pink{
+    background-color: #cb4ace;
+}
+
+.green{
+    background-color: #175e71;
+}
+
+.blue-dark{
+    background-color: #0a1578;
+}
+
+/*=================================================*/
+
+.lancamento-1{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/cover/9dea930ed4f430988ac60fcd0b63f1b8/264x264-000000-80-0-0.jpg");
+}
+.lancamento-2{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/cover/5bd89765979424013c4b32f91bfb26c4/264x264-000000-80-0-0.jpg");
+}
+.lancamento-3{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/cover/1d2b00c7547d34e71d1c10786f8d8285/264x264-000000-80-0-0.jpg");
+}
+.lancamento-4{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/cover/09467ac14fb40f71b68c5990cc068a95/264x264-000000-80-0-0.jpg");
+}
+
+.date{
+    font-size: 0.75rem;
+}
+
+
+/*===============================================================*/
+
+.image-1{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/artist/dfbec2f0ffd4ea20bc4cda126f5c98d1/264x264-000000-80-0-0.jpg");
+}
+.image-2{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/artist/eecde2bef1468c13b1d1183a868f7971/264x264-000000-80-0-0.jpg");
+}
+.image-3{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/artist/bae3a6abb59c25a18a2a84d1700527bf/264x264-000000-80-0-0.jpg");
+}
+.image-4{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/artist/6ec0183bb6937cc4822ba1d8c4ab1f9f/264x264-000000-80-0-0.jpg");
+}
+
+/*=====================================================================*/
+
+.amado-1{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/playlist/da9d661b566b886603ef0eb2c954c111/264x264-000000-80-0-0.jpg");
+}
+.amado-2{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/playlist/52bd78f1623b5ece9deecb145e485266/264x264-000000-80-0-0.jpg");
+}
+.amado-3{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/playlist/fc3fa5a309508625512bbcdd0eb2d954/264x264-000000-80-0-0.jpg");
+}
+.amado-4{
+    background-image: url("https://e-cdns-images.dzcdn.net/images/playlist/5ee7556f71590d27dd7b406f3741e44a/264x264-000000-80-0-0.jpg");
+}

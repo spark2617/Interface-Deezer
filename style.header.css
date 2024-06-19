@@ -1,0 +1,117 @@
+header{
+    padding: 16px;
+    height: 80px;
+    position: fixed;
+    margin-left: 271px;
+    width: 79.11%;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom:1px solid rgb(202, 202, 202);
+}
+
+header input{
+    height: 100%;
+    color: #6f6d71;
+    background-color: #e0dede;
+    border-radius: 8px;
+
+    border: transparent;
+    flex: 1;
+
+    font-size: 1rem;
+
+}
+
+.d-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left:16px;
+}
+
+.container-input{
+    height: 48px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 12px;
+
+    background-color: #e0dede;
+    width: 375px;
+
+    border-radius: 8px;
+
+    
+}
+
+.container-notification{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.number-notification{
+    border-radius: 999px;
+    height: 24px;
+    width: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #A238FF;
+
+    font-size: 0.750rem;
+    color: rgb(249, 252, 255);
+    font-weight: 600;
+
+    position: absolute;
+
+    right: 58px;
+    top: 15px;
+}
+
+.ball{
+    height: 32px;
+    width: 32px;
+
+    border-radius: 999px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ball svg{
+    height: 24px;
+    width: 24px;
+}
+
+.ball:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+.j{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 32px;
+    width: 32px;
+
+    background-color: rgb(216, 216, 216);
+    color: #6f6d71;
+
+    border-radius: 999px;
+
+    margin-left: 16px;
+}
+
