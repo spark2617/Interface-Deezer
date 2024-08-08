@@ -1,117 +1,115 @@
-footer{
+/* Footer Styles */
+footer {
     position: fixed;
     height: 75px;
     background-color: rgb(241, 241, 241);
-    border-top:1px solid rgb(202, 202, 202);
-
-    padding: 0 16px;
-
+    border-top: 1px solid rgb(202, 202, 202);
+    padding: 0 1rem; /* Usando rem para melhor responsividade */
     width: 100%;
     bottom: 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.left-container{
+/* Left Container Styles */
+.left-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 0.625rem; /* 10px em rem */
 }
 
-.left-container img{
-    height: 46px;
-    width: 46px;
+.left-container img {
+    height: 2.875rem; /* 46px em rem */
+    width: 2.875rem; /* 46px em rem */
 }
 
-.div-icon svg{
-    height: 24px;
-    width: 24px;
+.div-icon svg {
+    height: 1.5rem; /* 24px em rem */
+    width: 1.5rem; /* 24px em rem */
 }
 
-.play-footer{
+.play-footer {
     background-color: #a238ff;
-
-    height: 32px;
-    width: 32px;
-
-    border-radius: 999px;
-
-    transition: 0.2s;
+    height: 2rem; /* 32px em rem */
+    width: 2rem; /* 32px em rem */
+    border-radius: 50%; /* Utilizando a propriedade 50% para bordas arredondadas */
+    transition: background-color 0.2s; /* Melhor especificar a propriedade de transição */
 }
 
-.play-footer svg{
-    height: 24px;
-    width: 24px;
+.play-footer svg {
+    height: 1.5rem; /* 24px em rem */
+    width: 1.5rem; /* 24px em rem */
     fill: white;
 }
 
-.play-footer:hover{
+.play-footer:hover {
     background-color: #9020f1;
 }
 
-.left-container strong{
+/* Text Styles in Left Container */
+.left-container strong {
     font-size: 1rem;
     font-weight: 400;
 }
 
-.left-container span{
+.left-container span {
     font-size: 0.85rem;
     font-weight: 400;
-
     color: rgb(133, 133, 133);
 }
 
-.left-container strong:hover, span:hover{
+.left-container strong:hover,
+.left-container span:hover {
     text-decoration: underline;
-    transition: 0.2s;
+    transition: text-decoration 0.2s; /* Melhor especificar a propriedade de transição */
 }
 
-.flex-center{
+/* Flex Center */
+.flex-center {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.f-container-icons{
-    gap: 5px;
+/* Container Icons Styles */
+.f-container-icons {
+    gap: 0.3125rem; /* 5px em rem */
 }
 
-.div-icon{
-    height: 32px;
-    width: 32px;
-
-    border-radius: 999px;
-
-    transition: 0.2s;
-    
+.div-icon {
+    height: 2rem; /* 32px em rem */
+    width: 2rem; /* 32px em rem */
+    border-radius: 50%;
+    transition: background-color 0.2s; /* Melhor especificar a propriedade de transição */
 }
 
-.div-icon:hover{
+.div-icon:hover {
     background-color: rgb(224, 224, 224);
 }
 
-.container-play{
-    gap: 8px;
+/* Play Container Styles */
+.container-play {
+    gap: 0.5rem; /* 8px em rem */
 }
 
-
-.container-time-music{
-    gap: 16px;
+.container-time-music {
+    gap: 1rem; /* 16px em rem */
 }
 
-.container-time-music span{
+.container-time-music span {
     font-size: 0.85rem;
     font-weight: 400;
     text-decoration: none;
 }
 
-.right-container{
-    gap: 5px;
+/* Right Container Styles */
+.right-container {
+    gap: 0.3125rem; /* 5px em rem */
 }
 
-.op{
+/* Opacity Class */
+.op {
     opacity: 0.5;
 }

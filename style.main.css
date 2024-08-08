@@ -4,7 +4,7 @@ main{
     top: 80px;
     margin-left: 271px;
     width: 79.11%;
-    height: 500px;
+    height: calc(100% - 75px);
     display: flex;
     
     align-items: center;

@@ -11,7 +11,7 @@ body{
 
 .menu{
     
-    
+    height: calc(100% - 75px);
     width: 271px;
     border-right:1px solid rgb(202, 202, 202);
     background-color: rgb(241, 241, 241);
